@@ -1,11 +1,8 @@
-// import Image from "next/image";
-// import BolderHeader from "../layout/bolderheader";
-// import ParaGrap from "../layout/paragrap";
 import SsectionTitel from "../layout/sectiontitel";
 import SectionTitleImg from "../layout/sectiontitleimg";
 import TopPara from "../layout/toppara";
 import Wrapper from "../layout/wrapper";
-import Farmer from "./Farmer";
+import Farmer from "./farmer";
 
 const totext = "Team Members";
 const sctiontitleFarmer = "MEET OUR FARMERS";

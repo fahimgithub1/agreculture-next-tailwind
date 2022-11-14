@@ -40,21 +40,6 @@ export default function AllProjects(){
 
     return(
         <Wrapper sectionclass="bg-white" comondivclass="flex flex-wrap  justify-center">
-            {/* <div className="relative w-4/12 rounded-xl overflow-hidden">
-                <Image src={img1}  height='200' width="100%" alt="Prject image" className="w-full" />
-
-                <div className="absolute bottom-0 left-0 w-full px-12 py-12 pt-32 text-white bg-gradient-to-t from-lime-900 to-transparent  bg-opacity-10 ">
-                    <BolderHeader 
-                                    text={upertext1}
-                                    classes="mb-6 pb-1 border-b-4 border-yellow-300 inline"
-                    />
-                    
-                    <BolderHeader 
-                                    text={loyertext1}
-                                    classes="text-4xl mt-4 font-thin"
-    />
-                </div>
-            </div> */}
 
             {ProjectThemnel.map((item)=>(
                 <PerProjectThemnel 
