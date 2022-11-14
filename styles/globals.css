@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI,  Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* img{
+  width: 100%;
+  height: auto;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: rgb(17, 16, 16);
+    background: rgb(7, 7, 7);
+  }
+}
+
+/* common componnent style start */
+  .common-padding{
+    @apply py-8 px-6
+           sm:px-8
+           md:px-9
+           lg:px-10
+          text-gray-900
+          text-lg
+  }
+
+  .top-para-style{
+    @apply font-semibold text-lime-700 text-xl
+  }
+
+  .section-title{
+    @apply  font-semibold leading-snug mt-2
+  }
+
+  .text-area{
+    @apply w-full h-40 rounded-lg border-none max-h-40
+  }
+/* common componnent style end */
+
+/* navigatin start */
+  .logo-style{
+    @apply mr-3 h-24 w-24
+          sm:h-24 sm:w-24 
+          lg:h-28 lg:w-28 
+  }
+
+  .nav-list{
+    @apply px-10 py-2 text-lg gap-10 mb-4 
+        bg-lime-900 text-white rounded-full 
+          flex items-center justify-between
+  }
+
+  .nav-pages{
+    @apply flex items-center justify-between
+           px-9 text-lg mb-2
+           font-semibold text-gray-600
+  }
+
+  .nav-pages li:hover{
+    @apply text-black
+  }
+
+  .page-active{
+    @apply text-gray-800 font-bold
+  }
+
+  .nav-icon-style{
+    @apply mr-2 text-yellow-400 text-xl
+  }
+
+  .socila-iocn li{
+    @apply hover:text-yellow-400
+  }
+
+  .frist-navigtion-style{
+    @apply flex gap-6 text-base font-semibold
+  }
+
+  .mobile-navigation{
+    @apply block md:hidden lg:hidden fixed p-4 bg-lime-800 
+           z-10 h-screen top-0 left-0 overflow-y-auto 
+           overflow-x-hidden w-60 font-bold opacity-100
+  }
+
+  .mobile-nav-bg{
+    @apply block md:hidden lg:hidden fixed z-10 w-[100%] 
+         bg-black h-[100vh] top-0 left-0 opacity-70
+  }
+/* navigatin end */
+
+/* heros stat */
+  .heros-btn{
+    @apply px-2 pl-9 py-3 font-bold text-lg rounded-full bg-lime-900
+          hover:bg-yellow-400 hover:text-gray-900
+  }
+
+  .heros-btn:hover .btn-arow{
+    @apply bg-lime-900 text-white
+  }
+
+  .btn-arow{
+    @apply bg-yellow-400 rounded-full p-3
+  }
+
+  
+  .heors-chake{
+    @apply text-2xl text-yellow-400
+  }
+/* heros end */
+
+/* Foooter start */
+  footer{
+    @apply py-8 px-5
+           sm:py-8 sm:px-8
+           lg:py-8 lg:px-8
+         bg-lime-900 text-white text-lg
+  }
+
+  footer ul li{
+    @apply mb-2 sm:mb-3 lg:mb-4 text-gray-300
+  }
+
+  footer ul li:hover{
+    @apply text-yellow-400
+  }
+
+  .footer-btn{
+    @apply absolute bg-yellow-400 p-3 top-2 right-3 
+          rounded-full text-black cursor-pointer
+          hover:bg-lime-900 hover:text-white
+  }
+/* Foooter end */
+
+
+/* Heros start */
+.heroImage img{
+  @apply h-full
+}
+/* Heros end */
+
+/* about us start */
+.about-heors-chake{
+  @apply p-1 text-sm rounded-full bg-yellow-400 text-white
+}
+
+.fermerhover:hover .hover1block{
+  @apply block transition-all
+}
+/* about us end */
+
+/* Service start */
+.service-type{
+  @apply py-2 px-4 rounded-lg font-semibold hover:bg-white mt-1 cursor-pointer
+}
+
+.service-type-active{
+  @apply bg-white
+}
+
+.service-img img{
+  @apply w-full
+}
+/* Service end */
