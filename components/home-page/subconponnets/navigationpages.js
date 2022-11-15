@@ -26,7 +26,7 @@ export default function NavigationPages(props){
             <MobileItemNav
                             classes ={props.itemclass}
                             pagename='Project'
-                            pagepath='/'
+                            pagepath='/projects'
             />
             
             <MobileItemNav
