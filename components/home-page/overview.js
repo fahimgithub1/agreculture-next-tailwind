@@ -8,6 +8,7 @@ import Image from "next/image";
 import Image1 from "/public/Overview/about-one-img-1.jpg";
 import Image2 from "/public/Overview/about-one-img-2.jpg";
 import ParaWithIcon from "../layout/parawithicon";
+import Link from "next/link";
 
 const paratext = "Get to Know Agrion";
 const paratext1 = "We’ve 20 years of agriculture farming experience.";
@@ -24,7 +25,7 @@ export default function OverView(){
                     <TopPara topparaText={paratext} />
 
                     <SsectionTitel sctiontitle="AGRION IS THE AGRICULTURE AND ORGANIC FARM"  
-                                allsectonclass="text-[2.7rem]" 
+                                allsectonclass="text-[1.5rem] md:text-[2rem] lg:text-[2.7rem] " 
                     />
 
                     <SectionTitleImg alltitleimgclass="mt-3 mb-4"/>
@@ -42,7 +43,9 @@ export default function OverView(){
                         /> 
                     </div>
 
-                    <Button btntext="About More " allbtnclass="mb-5 text-white mt-6 lg:mb-0 md:mb-0 sm:mb-0"/>
+                    <Link href="./aboutus">
+                        <Button btntext="About More " allbtnclass="mb-5 text-white mt-6 lg:mb-0 md:mb-0 sm:mb-0"/>
+                    </Link>
                 </div>
 
                 <div className="lg:w-6/12 md:w-6/12 lg:relative md:relative">

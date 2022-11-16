@@ -37,7 +37,7 @@ export default function OurFermes(){
             <SsectionTitel sctiontitle={sctiontitleFarmer} allsectonclass = "section-title text-4xl"  />
             <SectionTitleImg alltitleimgclass="mt-3 mb-4 m-auto"/>
 
-            <div className="md:flex md:flex-wrap items-center mt-10">
+            <div className="md:flex md:flex-wrap items-center mt-10 justify-center">
                 {FarmerDatiles.map((item)=>(
                     <Farmer
                             key={item.id}

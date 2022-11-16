@@ -22,7 +22,7 @@ export default function OverviewAbout(){
 
     return(
         <Wrapper sectionclass='bg-white' comondivclass="lg:flex container m-auto persangatediv">
-            <div className="lg:w-6/12 md:h-full md:flex md:mb-3 lg-mb-0">
+            <div className="lg:w-6/12 md:h-full md:flex md:mb-3 lg-mb-0 items-center">
                 <div className="h-full md:w-[50%] md:pr-5">
                     <Image src={image1} height="200" width="200" alt="over view image" className="h-auto lg:h-80 md:h-80 w-[100%] rounded-lg mb-4" />
                     <Image src={image2} height="100" width="200" alt="over view image" className="h-auto lg:h-80 md:h-80  w-[100%] rounded-lg mb-4 md:mb-0" />

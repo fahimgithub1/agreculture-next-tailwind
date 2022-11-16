@@ -4,7 +4,7 @@ import BolderHeader from "../layout/bolderheader";
 export default function  PerProjectThemnel(props){
 
     return(
-        <div className="w-4/12 mb-1 p-3">
+        <div className="w-full md:w-6/12 lg:w-4/12 mb-1 p-3">
             <div className="relative rounded-xl overflow-hidden ">
                 <Image src={props.img}  height='200' width="100%" alt="Prject image" className="w-full" />
 

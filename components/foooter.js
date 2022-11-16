@@ -31,7 +31,7 @@ export default function Foooter(){
                     
                     <ul>
                         <li>
-                            <Link href='/'>
+                            <Link href='./projects'>
                                 <div className="flex items-center">
                                     <div className="items-center mr-2">
                                         <Image src={project} height='20px' width='20px' alt="project1" className="h-20 w-20 rounded-lg"/>
@@ -46,7 +46,7 @@ export default function Foooter(){
                         </li>
 
                         <li>
-                            <Link href='/'>
+                            <Link href='./projects'>
                                 <div className="flex items-center">
                                     <div className="items-center mr-2">
                                         <Image src={project2} height='20px' width='20px' alt="project1" className="h-20 w-20 rounded-lg"/>

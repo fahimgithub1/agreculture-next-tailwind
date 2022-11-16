@@ -16,7 +16,7 @@ export default function SeviceRightImgDaties(props){
 
             <BolderHeader 
                             text={props.taitel}
-                            classes="text-4xl mt-4"
+                            classes="text-3xl md:text-4xl mt-4"
             />
 
             <ParaGrap 

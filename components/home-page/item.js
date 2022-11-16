@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Button from "../layout/button";
 
 export default function Item(props){
@@ -8,11 +9,14 @@ export default function Item(props){
             <Image src={props.ImageCaroul} width="100%" height="auto" alt="carosulimage" className="h-full" />
             <div className="h-full w-full absolute flex justify-center items-center bg-black  bg-opacity-60">
                 <div className="text-white text-center">
-                    <p className="text-lg font-semibold md:text-xl lg:text-xl">{props.para}</p>
+                    <p className="text-dm font-semibold md:text-xl lg:text-xl">{props.para}</p>
 
-                    <h1 className="text-6xl	font-extrabold md:text-8xl lg:text-9xl">{props.hader}</h1>
+                    <h1 className="text-5xl	font-extrabold md:text-7xl xl:text-9xl lg:text-8xl">{props.hader}</h1>
 
-                    <Button btntext="Discover More" allbtnclass="mt-9" />
+                    <Link href="./projects">
+                        <Button btntext="Discover More" allbtnclass="mt-9" />
+                    </Link>
+                    
                 </div>
             </div>
         </div>

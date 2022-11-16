@@ -55,7 +55,7 @@ export default function Services(){
                                        SerIcon={FaTractor} 
                                        title={item.title} 
                                        textpragrap={item.parag}
-                                       hrtlink = "/"
+                                       hrtlink = "./services"
                         />
 
                     ))}
